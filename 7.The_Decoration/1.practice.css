@@ -1,0 +1,6 @@
+/* Set .bg to background-image with a gradient.
+ */
+/* Write your CSS here */
+.bg{
+  background-image: linear-gradient(to left, #a2a2a2,#f5f5f5)
+}

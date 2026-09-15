@@ -1,0 +1,11 @@
+/* Set .timing to transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55).
+ */
+/* Think of it as the animation's speed curve.
+creates a strong overshoot/bounce-like effect. */
+/* Write your CSS here */
+.timing {
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.timing:hover{
+  transform: scale(1.4);
+}

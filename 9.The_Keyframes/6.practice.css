@@ -1,0 +1,20 @@
+/* Set .fill to animation-fill-mode forwards. */
+
+/* This one controls what happens to the element after the animation finishes.
+Normally, when an animation finishes, the element goes back to its original CSS state.
+After the animation finishes, keep the styles from the final keyframe. */
+
+/* Write your CSS here */
+.fill {
+  animation: move 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move{
+  from{
+    transform: translate(0);
+  }
+  to {
+    transform: translate(10px);
+  }
+}

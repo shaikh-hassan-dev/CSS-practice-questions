@@ -1,0 +1,19 @@
+/* .box {
+  animation: 3s ease-in 1s infinite alternate forwards slide-in;
+}
+animation: [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state] [name]; */
+
+/* Create @keyframes fadeIn with opacity 0 to 1. */
+
+/* Write your CSS here */
+.animate {
+  animation: fadeIn 1s ease;
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

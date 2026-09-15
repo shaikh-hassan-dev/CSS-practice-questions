@@ -1,0 +1,6 @@
+/* Set .scale to transform: scale(1.5).
+ */
+/* Write your CSS here */
+.scale {
+  transform: scale(1.5);
+}

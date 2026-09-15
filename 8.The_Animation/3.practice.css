@@ -1,0 +1,6 @@
+/* Set .rotate to transform: rotate(45deg).
+ */
+/* Write your CSS here */
+.rotate {
+  transform: rotate(45deg);
+}

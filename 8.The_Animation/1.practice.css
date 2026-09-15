@@ -1,0 +1,10 @@
+/* Set .fade to transition: opacity 0.3s.
+ */
+/* Write your CSS here */
+.fade {
+  transition: opacity 0.3s ease-in;
+}
+
+.fade:hover {
+  opacity: 0.3;
+}

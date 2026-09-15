@@ -1,0 +1,9 @@
+/* Set .origin to transform-origin: top left.
+ */
+/* Start the transformation from the top-left corner of the element.
+the element rotates around its top-left corner. rather than the center by default */
+/* Write your CSS here */
+.origin {
+  transform-origin: top left;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,16 @@
+/* Set .slow to animation-duration 3s.
+ */
+/* Write your CSS here */
+.slow {
+  animation-name: slow;
+  animation-duration: 3s;
+}
+
+@keyframes slow{
+  from{
+    background-color: blue;
+  }
+  to {
+    background-color: purple;
+  }
+}

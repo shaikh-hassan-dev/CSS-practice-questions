@@ -1,0 +1,16 @@
+/* Set .alternate to animation-direction alternate.
+ */
+/* Write your CSS here */
+.alternate {
+  animation: move 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translate(10px);
+  }
+}

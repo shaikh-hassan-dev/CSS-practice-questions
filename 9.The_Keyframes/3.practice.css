@@ -1,0 +1,16 @@
+/* Set .infinite to animation-iteration-count infinite.
+ */
+/* Write your CSS here */
+.infinite {
+  animation: bounce 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(-20px);
+  }
+}

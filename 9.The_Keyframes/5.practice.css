@@ -1,0 +1,16 @@
+/* Set .delayed to animation-delay 1s.
+ */
+/* Write your CSS here */
+.delayed {
+  animation: move 2s;
+  animation-delay: 1s;
+}
+
+@keyframes move{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translate(10px);
+  }
+}
