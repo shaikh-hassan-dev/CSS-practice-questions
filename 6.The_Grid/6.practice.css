@@ -1,0 +1,6 @@
+/* Set .span-rows to grid-row: span 2.
+ */
+/* Write your CSS here */
+.span-rows {
+  grid-row: span 2;
+}

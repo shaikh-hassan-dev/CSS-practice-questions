@@ -1,0 +1,6 @@
+/* Set .container to display flex.
+ */
+/* Create .container */
+.container {
+  display: flex;
+}

@@ -1,0 +1,33 @@
+
+
+/* Set .grid to use grid-template-areas. */
+
+/* Write your CSS here */
+.grid {
+  display: grid;
+  grid-template-areas: 
+    "header header",
+    "sidebar main";
+}
+
+/*  Example
+.grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+    "header header"
+    "sidebar main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+} */
