@@ -1,0 +1,8 @@
+/* Create a @media query that targets screens with max-width: 768px. Inside this media query, create a .responsive selector with font-size: 14px. This will make text smaller on mobile devices.
+ */
+/* Write your CSS here */
+@media(max-width: 768px){
+  .responsive{
+    font-size: 14px;
+  }
+}
